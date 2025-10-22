@@ -1,0 +1,62 @@
+import { citiesLength } from "./constants";
+
+const ALL_CITIES = [
+  "Kyiv",
+  "Madrid",
+  "New York",
+  "Tokyo",
+  "Paris",
+  "London",
+  "Rome",
+  "Berlin",
+  "Lisbon",
+  "Oslo",
+  "Helsinki",
+  "Copenhagen",
+  "Stockholm",
+  "Warsaw",
+  "Prague",
+  "Vienna",
+  "Budapest",
+  "Bucharest",
+  "Istanbul",
+  "Athens",
+  "Dubai",
+  "Toronto",
+  "Chicago",
+  "Los Angeles",
+  "San Francisco",
+  "Seoul",
+  "Beijing",
+  "Shanghai",
+  "Hong Kong",
+  "Singapore",
+  "Bangkok",
+  "Sydney",
+  "Melbourne",
+  "Auckland",
+  "Cape Town",
+  "Cairo",
+  "Nairobi",
+  "Mexico City",
+  "Buenos Aires",
+  "Santiago",
+  "Rio de Janeiro",
+  "Lima",
+  "Jakarta",
+  "Manila",
+  "Kuala Lumpur",
+  "Hanoi",
+  "Taipei",
+  "Jerusalem",
+  "Riyadh",
+  "Doha",
+  "Kuwait City",
+];
+
+export const pickRandomCities = (count = citiesLength) => {
+  const shuffled = [...ALL_CITIES].sort(() => 0.5 - Math.random());
+  return shuffled.slice(0, count);
+}
+
+export const allCities = ALL_CITIES;

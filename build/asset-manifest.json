@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/weatherGame/static/css/main.e6c13ad2.css",
+    "main.js": "/weatherGame/static/js/main.6ea23983.js",
+    "static/js/453.8afb7d08.chunk.js": "/weatherGame/static/js/453.8afb7d08.chunk.js",
+    "index.html": "/weatherGame/index.html",
+    "main.e6c13ad2.css.map": "/weatherGame/static/css/main.e6c13ad2.css.map",
+    "main.6ea23983.js.map": "/weatherGame/static/js/main.6ea23983.js.map",
+    "453.8afb7d08.chunk.js.map": "/weatherGame/static/js/453.8afb7d08.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e6c13ad2.css",
+    "static/js/main.6ea23983.js"
+  ]
+}
